@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="2048.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1> 2 0 4 8 </h1>
+        <div class="score"> SCORE : <span id="score_val"></span>  </div>
+      </div>
+      <div class="game">
+        <table id="tbl">
+          <tr>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+          </tr>
+          <tr>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+          </tr>
+          <tr>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+          </tr>
+          <tr>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+            <td class="square"></td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+    <div class="button">
+      <button type="button" id="play_again">Play Again</button>
+    </div>
+
+    <script src="2048new.js" charset="utf-8"></script>
+
+  </body>
+</html>
